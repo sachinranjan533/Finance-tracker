@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.4'
 
+#adding gems for api associated with it to make process simpler
+gem 'iex-ruby-client'
 #adding the devise gem
 gem 'devise'
 #adding the devise bootstarp gem
