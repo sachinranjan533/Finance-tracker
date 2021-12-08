@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.7.4'
 
+gem 'font-awesome-rails'
 #adding gems for api associated with it to make process simpler
 gem 'iex-ruby-client'
 #adding the devise gem
